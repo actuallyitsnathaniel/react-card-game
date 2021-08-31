@@ -1,0 +1,15 @@
+// UPGRADES TO DO
+// ****************
+// 1. Store a history of user's lowest number of moves
+// and notify them if they've set a new high score
+// 2. Randomize the way cards are animated to their final position
+// 3. Automatically flip cards back if more than 2 are visible
+// and it's been 2+ seconds since last user action
+
+
+1. HIGH SCORE (Async Saving?)
+- Utilize moveCount within the state to compare high scores
+- Save previous moveCount as prevMoveCount
+- Save Asyncronously to be accessed later
+- When game is finished, show score LIST 
+    - Probably remove alert and have a new screen!
